@@ -1,0 +1,46 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.eroad.java_technical_test</groupId>
+	<artifactId>drsog</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>Java Technical Test by Sean Ogden</name>
+
+	<dependencies>
+		<dependency>
+			<groupId>net.iakovlev</groupId>
+			<artifactId>timeshape</artifactId>
+			<version>2018d.1</version>
+		</dependency>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.12</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+
+	<licenses>
+		<license>
+			<name>MIT License</name>
+			<url>https://github.com/RomanIakovlev/timeshape/blob/master/CODE_LICENSE</url>
+		</license>
+		<license>
+			<name>GIS data license</name>
+			<url>https://github.com/RomanIakovlev/timeshape/blob/master/DATA_LICENSE</url>
+			<comments>Analyze before use in production</comments>
+		</license>
+	</licenses>
+	<build>
+		<plugins>
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.6.1</version>
+				<configuration>
+					<source>1.8</source>
+					<target>1.8</target>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+</project>
